@@ -56,4 +56,23 @@ export const Repository = styled.div`
             }
         }
     }
+
+    .button-box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 5px 0 10px 0;
+        button {
+            width: 40px;
+            border: 0;
+            background: #fff;
+
+            &:hover {
+                cursor: pointer;
+                i {
+                    color: #ccc;
+                }
+            }
+        }
+    }
 `;
